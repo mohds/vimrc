@@ -107,7 +107,7 @@ set nomodeline
 " * Text Formatting -- General
 
 " don't make it look like there are line breaks where there aren't:
-#set nowrap
+"set nowrap
 
 " use indents of 2 spaces, and have them copied down lines:
 set shiftwidth=2
@@ -190,7 +190,7 @@ set smartcase
 set incsearch
 
 " assume the /g flag on :s substitutions to replace all matches in a line:
-#set gdefault
+"set gdefault
 
 
 " * Keystrokes -- Moving Around
@@ -198,7 +198,7 @@ set incsearch
 " have the h and l cursor keys wrap between lines (like <Space> and <BkSpc> do
 " by default), and ~ covert case over line breaks; also have the cursor keys
 " wrap in insert mode:
-#set whichwrap=h,l,~,[,]
+"set whichwrap=h,l,~,[,]
 
 " page down with <Space> (like in `Lynx', `Mutt', `Pine', `Netscape Navigator',
 " `SLRN', `Less', and `More'); page up with - (like in `Lynx', `Mutt', `Pine'),
