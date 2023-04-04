@@ -297,3 +297,4 @@ syntax on
 
 " set line numbers
 set number
+color ron
